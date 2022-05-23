@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #faf4f2;
+}
+
+.clear {
+  clear: both;
+}
+
+.header {
+  background: #f8e1d2;
+  padding: 10px 70px;
+}
+
+.header ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.header li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.carousel {
+  background-image: url(../img/BG.png);
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+}
+
+.activities {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.activities__title h2 {
+  color: #8a8a8a;
+}
+
+.activities__content {
+  margin: 40px 0;
+}
+.activities__item {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+.activities__background {
+  background: #fff;
+  padding: 60px;
+  border-radius: 20px;
+}
+.activities__image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.activities__image {
+  position: relative;
+}
+.activities__love {
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  border-radius: 14px;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  color: #e76f51;
+  cursor: pointer;
+}
+.activities__info h2 {
+  font-size: 25px;
+  line-height: 28px;
+  margin: 15px 0;
+}
+.activities__info p {
+  margin: 15px 0;
+  line-height: 35px;
+  font-size: 21px;
+  color: #aaaaaa;
+}
+.activities__info button {
+  margin-top: 10px;
+  padding: 12px 70px;
+  border-radius: 25px;
+  color: #8d8d8d;
+  border: transparent;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.activities__viewAll button {
+  font-size: 18px;
+  color: #e76f51;
+  border: 1px solid #e76f51;
+  border-radius: 25px;
+  padding: 13px 71px;
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+.activities__info button:hover,
+.activities__viewAll button:hover {
+  background-color: #e76f51;
+  color: white;
+}
+
+.contact {
+  background-color: #f8e1db;
+  border-radius: 20px;
+  margin: 50px 0 100px;
+}
+
+.contact__left,
+.contact__right {
+  float: left;
+  width: 50%;
+  padding: 20px 60px;
+}
+
+.contact__left {
+  background: url(../img/mask.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.contact__right {
+  padding-top: 70px;
+}
+.contact__right p {
+  margin: 15px 0 30px;
+  font-size: 22px;
+  color: #8a8a8a;
+}
+.contact__right h3 {
+  margin-bottom: 21px;
+  font-size: 25px;
+  color: #8a8a8a;
+}
+.contact__right h2 {
+  font-size: 40px;
+  color: #8a8a8a;
+}
+
+.contact__app,
+.contact__us {
+  float: left;
+  width: 50%;
+}
+
+.contact__us i {
+  color: #e76f51;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.footer {
+  background-color: #f8e1db;
+  border-radius: 100px 100px 0 0;
+  padding: 100px 30px 50px;
+}
+
+.footer h3 {
+  font-size: 25px;
+  margin-bottom: 21px;
+}
+.footer p {
+  font-size: 20px;
+}
+
+.footer a {
+  font-size: 20px;
+}
+
+.footer__about {
+  float: left;
+  width: 40%;
+  line-height: 28px;
+  padding: 0 28px;
+}
+.footer__list {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.footer__nav {
+  float: left;
+  width: 33.33%;
+}
+
+.footer__nav li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.footer__nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer__copyrights {
+  text-align: center;
+  padding-top: 30px;
+}
