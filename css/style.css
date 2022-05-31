@@ -60,7 +60,7 @@ body {
 
 .activities__background {
   background: #fff;
-  padding: 60px;
+  padding: 35px;
   border-radius: 20px;
 }
 .activities__image img {
@@ -72,14 +72,14 @@ body {
   position: relative;
 }
 .activities__love {
-  width: 52px;
-  height: 52px;
-  line-height: 52px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
   border-radius: 14px;
   background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
   top: 25px;
-  right: 35px;
+  right: 25px;
   color: #e76f51;
   cursor: pointer;
 }
@@ -91,7 +91,7 @@ body {
 .activities__info p {
   margin: 15px 0;
   line-height: 35px;
-  font-size: 21px;
+  font-size: 19px;
   color: #aaaaaa;
 }
 .activities__info button {
@@ -100,7 +100,7 @@ body {
   border-radius: 25px;
   color: #8d8d8d;
   border: transparent;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
 }
 
